@@ -1,11 +1,8 @@
-import java.util.Scanner;
-
 public class SumOfPrimeNumber {
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
-        System.out.println("Enter a num:");
-        int num = sc.nextInt();
-        findPrimeSums(num);
+        
+        int num = 10;
+                findPrimeSums(num);
     }
     public static void findPrimeSums(int num) {
         for (int i = 2; i <= num / 2; i++) {
